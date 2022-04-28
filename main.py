@@ -14,4 +14,4 @@ json = convert(html)
 news = json['html'][0]['body'][0]['div'][0]['div'][1]['main'][0]['div'][0]['div'][1]['p'][1]['_values']
 spinner.stop()
 
-print(f'Latest news entry:\n\n{join(news[0])}')
+print(f'Latest Serebii news entry:\n\n{join(news[0])}')
